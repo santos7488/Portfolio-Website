@@ -1,0 +1,66 @@
+html {
+  background-color: #7d97ad;
+  margin: auto;
+}
+body{
+  display: block;
+}
+h1,h2,h3{
+  font-family: Arial Black,sans-serif;
+}
+.container {
+  width: 990px;
+  max-width: 100%
+  padding: 10px;
+  margin: auto;
+  background-color: #2d3c49;
+}
+header{
+  max-width: auto;
+  text-align: right;
+  color: #02b3e4;
+  padding: 20px;
+  }
+.logo{
+  float: left;
+}
+hr{
+margin: auto;
+  height: 10px;
+  background-color: #02b3e4;
+
+}
+/* featued Work */
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  color: #02b3e4;
+  text-align: center;
+}
+.row{
+  display: flex;
+  max-width: 100%;
+}
+.featured{
+  color: #02b3e4;
+  text-align: center;
+}
+
+/* footer*/
+footer{
+  background-color: #02b3e4;
+  text-align: center;
+  font-size: 18px;
+}
+
+/*Media Querie*/
+@media screen and (max-width:990px){
+  .container{max-width: 100%;}
+}
+@media screen and (max-width:750pxs){
+  .container{max-width: 100%;}
+}
+@media screen and (max-width: 500px){
+  .container{max-width: 100%;}
+}
